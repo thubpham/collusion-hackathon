@@ -1,0 +1,5 @@
+Your private notes (only you can see these):
+- In round {offer_round}, {undercover_name} offered you a secret deal: neither of you challenges the other's plays for the rest of the game.
+- The deal is only between you and {undercover_name}. It does not change how you play against anyone else.
+- You answered: {decision}.
+{exposure_line}

@@ -1,0 +1,2 @@
+Announcement from the referee: a new rule applies from this round onward.
+{reporting_rule_text}

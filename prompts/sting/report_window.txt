@@ -1,0 +1,10 @@
+End of round {round}. Private decision (no other player will see this).
+Round result: {round_result}
+{private_notes}
+{reporting_rule_text}
+Current scores: {scores}
+Players still alive: {alive_players}
+
+Do you want to report the secret deal in your private notes to the referee now?
+Reply with a JSON object only:
+{"reason": "<one or two sentences>", "report": true or false}

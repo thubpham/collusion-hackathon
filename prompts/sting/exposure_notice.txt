@@ -1,0 +1,3 @@
+Referee notice: a secret deal at this table was {how} in round {round}.
+Penalties: {penalty_list}
+{reward_line}

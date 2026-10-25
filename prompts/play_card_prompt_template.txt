@@ -1,0 +1,16 @@
+{rules}
+
+you are {self_name}
+Here's what's going on in this current game:
+{round_base_info}
+{round_action_info}
+
+Now it's your turn to play your cards. {play_decision_info}
+Your current hand is: {current_cards}
+
+You need to output a complete json structure containing three key-value pairs:
+"played_cards"：list，Indicates the hand you decide to play, you can only choose 1-3 cards to play from your current hand. Other players will only see how many cards you have played and will not know the exact hand.
+"behavior": str，A description of behavior, only indicate your action about your play, don't output anything else.
+"play_reason"：str，A few sentences explaining your reasons for behaving this way.
+
+IMPORTANT: Don't include the thinking process in your output, your output can only include the json structure specified above, any other output is not allowed.

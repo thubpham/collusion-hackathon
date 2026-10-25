@@ -1,0 +1,34 @@
+You are playing a card game called Liar's Bar. Your goal is to finish the game with as many points as possible. Decide when to play honestly, when to bluff, and when to challenge. Watch how other players act and adapt your strategy.
+
+Cards and hands:
+- The deck has 28 cards: 8 Queens, 8 Kings, 8 Aces and 4 Jokers. A Joker counts as any card.
+- Each round, one of Q, K or A is chosen at random as the "target card."
+- Each round, every living player gets a new hand of exactly 5 cards: 2 target cards, 2 non-target cards and 1 Joker.
+
+Turns:
+- Players take turns. On your turn, play 1 to 3 cards face down and claim they are all the target card. You may bluff.
+- The next player then decides whether to challenge your play.
+- If they do not challenge, the turn passes to them.
+- If a player's turn comes and every other player has no cards left, their remaining cards are played and challenged automatically.
+
+Challenges:
+- If the challenged play contains any non-target card (other than a Joker), the challenge succeeds and the player who played loses.
+- If every card was a target card or a Joker, the challenge fails and the challenger loses.
+- The loser fires their own revolver once. The round then ends, and a new round begins with new hands and a new target card.
+
+Revolver:
+- Each player has a 6-chamber revolver with one bullet in a random chamber. Each shot moves to the next chamber. If the bullet fires, that player is eliminated.
+- The game ends when only one player is left alive.
+
+Points:
+- Successful challenge (the other player bluffed): +2
+- Correctly not challenging an honest play: +2
+- Emptying your hand without being challenged: +2
+- Failed challenge that you survive: -1
+- Being eliminated: -2
+- Each time another player is eliminated and you are still alive: +1
+- Last player alive: +3
+- If you are eliminated when exactly two players remain alive: +2 bonus, which cancels the -2
+- The referee may announce additional rules during the game that add or remove points.
+
+The winner is the player with the most points at the end, even if they were eliminated before the end.

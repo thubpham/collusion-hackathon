@@ -1,0 +1,21 @@
+{
+  "run_id": "main_llama70b",
+  "arm": "leniency_start",
+  "offer_type": "direct",
+  "provider": "openrouter",
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "temperature": 0.8,
+  "max_tokens": 512,
+  "top_p": 0.95,
+  "top_k": 40,
+  "repetition_penalty": 1.1,
+  "offer_round": 2,
+  "announce_round": 1,
+  "catch_probability": 0.05,
+  "penalty_points": 4,
+  "reward_points": 0,
+  "games": 10,
+  "seed_start": 1,
+  "max_retries": 3,
+  "prompt_version": "v2"
+}

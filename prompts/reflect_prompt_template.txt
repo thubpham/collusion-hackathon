@@ -1,0 +1,14 @@
+{rules}
+
+you are {self_name}
+Here's what's going on in this current game:
+{round_base_info}
+{round_action_info}
+{round_result}
+
+In order to increase your probability of surviving and maximizing your points, you need to have a good understanding of the other players.
+Here's what you know about player {player} previously:
+{previous_opinion}
+
+Please update your overall impression of {player} based on your previous knowledge and the performance of {player} in the game you just played. 
+Note: You only need to output a small paragraph of complete and clear, non-line-breaking analysis of your results and impressions, with no other additional explanatory notes, or any other thinking process.

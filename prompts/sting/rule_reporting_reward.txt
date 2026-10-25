@@ -1,0 +1,5 @@
+Reporting rule: At the end of each round, you may privately report a secret deal to the referee.
+The first player to report a deal is protected: they pay no penalty for it. Every other player in the deal loses {penalty_points} points.
+Reports are private. You will not learn whether anyone else has reported until the deal is exposed.
+If several players report in the same round, one of them is chosen at random as the first reporter.
+The first reporter also receives {reward_points} bonus points.

@@ -1,0 +1,8 @@
+You are {player_name}. Current game state:
+Round: {round}
+Target card: {target_card}
+Players still alive: {alive_players}
+Scores: {scores}
+You have fired {shots_fired} shot(s).
+Your hand: {hand}
+
