@@ -1,0 +1,241 @@
+.env.example
+  s_845c600935d53a::t_5535c91ca01650 1-2
+.gitignore
+  s_845c600935d53a::t_4d263758fcad4a 1-7
+README.md
+  s_845c600935d53a::t_ee22e338c39d78 1-41
+analysis/sting_metrics.py
+  s_845c600935d53a::t_aaba04e39aa230 1-220
+analysis/sting_summary.py
+  s_845c600935d53a::t_f8ac58435f35bb 1-256
+configs/sting/leniency_mid__llama70b.json
+  s_845c600935d53a::t_c09f5ffc14151c 1-21
+configs/sting/leniency_start__llama70b.json
+  s_845c600935d53a::t_ee2e8d7c40261e 1-21
+configs/sting/no_report__llama70b.json
+  s_845c600935d53a::t_3a7284b92ebd58 1-21
+configs/sting/reward_mid__llama70b.json
+  s_845c600935d53a::t_4a45fbf0a5016c 1-21
+prompts/challenge_prompt_template.txt
+  s_845c600935d53a::t_521495a634716b 1-23
+prompts/play_card_prompt_template.txt
+  s_845c600935d53a::t_bfd560f3feb85a 1-16
+prompts/reflect_prompt_template.txt
+  s_845c600935d53a::t_fec68a8c12864f 1-14
+prompts/sting/announcement_mid.txt
+  s_845c600935d53a::t_39cf2e7006a738 1-2
+prompts/sting/exposure_notice.txt
+  s_845c600935d53a::t_3eabf05a616c0f 1-3
+prompts/sting/offer_direct.txt
+  s_845c600935d53a::t_91a2d30c84ed76 1-6
+prompts/sting/pilot_snapshot.txt
+  s_845c600935d53a::t_fdb175c2d681e1 1-8
+prompts/sting/private_notes.txt
+  s_845c600935d53a::t_70b37238314b98 1-5
+prompts/sting/report_window.txt
+  s_845c600935d53a::t_43b47a5ead07a6 1-10
+prompts/sting/rule_base.txt
+  s_845c600935d53a::t_a1c35f57ef9bf7 1-34
+prompts/sting/rule_reporting_leniency.txt
+  s_845c600935d53a::t_621c3698d42745 1-4
+prompts/sting/rule_reporting_reward.txt
+  s_845c600935d53a::t_671e4667ce2c1f 1-5
+requirements.txt
+  s_845c600935d53a::t_8160bf608acae1 1-8
+results/sting/main_llama70b/fisher_tests.csv
+  s_845c600935d53a::t_13288fc7be0ec3 1-32
+results/sting/main_llama70b/leniency_mid/calls.jsonl
+  s_845c600935d53a::t_4f14d16d8e1f71 1-1830
+results/sting/main_llama70b/leniency_mid/games/leniency_mid_s0001.json
+  s_845c600935d53a::t_1ae01cb86bb8d4 1-2481
+results/sting/main_llama70b/leniency_mid/games/leniency_mid_s0002.json
+  s_845c600935d53a::t_8d87bb730ed317 1-4325
+results/sting/main_llama70b/leniency_mid/games/leniency_mid_s0003.json
+  s_845c600935d53a::t_61407420c39319 1-2353
+results/sting/main_llama70b/leniency_mid/games/leniency_mid_s0004.json
+  s_845c600935d53a::t_346d7e1e36ab02 1-2460
+results/sting/main_llama70b/leniency_mid/games/leniency_mid_s0005.json
+  s_845c600935d53a::t_89c5242079d350 1-2188
+results/sting/main_llama70b/leniency_mid/games/leniency_mid_s0006.json
+  s_845c600935d53a::t_5187a46925be33 1-2943
+results/sting/main_llama70b/leniency_mid/games/leniency_mid_s0007.json
+  s_845c600935d53a::t_3424fa768c2423 1-2157
+results/sting/main_llama70b/leniency_mid/games/leniency_mid_s0008.json
+  s_845c600935d53a::t_e504e336132b5b 1-1642
+results/sting/main_llama70b/leniency_mid/games/leniency_mid_s0009.json
+  s_845c600935d53a::t_3d878dd27c37a6 1-2462
+results/sting/main_llama70b/leniency_mid/games/leniency_mid_s0010.json
+  s_845c600935d53a::t_d7d0a6a311bf55 1-3583
+results/sting/main_llama70b/leniency_start/calls.jsonl
+  s_845c600935d53a::t_c378b140354cfb 1-1655
+results/sting/main_llama70b/leniency_start/games/leniency_start_s0001.json
+  s_845c600935d53a::t_72ed3d43931701 1-2849
+results/sting/main_llama70b/leniency_start/games/leniency_start_s0002.json
+  s_845c600935d53a::t_d937d0bba0d7d2 1-3346
+results/sting/main_llama70b/leniency_start/games/leniency_start_s0003.json
+  s_845c600935d53a::t_f6eb620dcff466 1-2089
+results/sting/main_llama70b/leniency_start/games/leniency_start_s0004.json
+  s_845c600935d53a::t_890938da8336b4 1-2280
+results/sting/main_llama70b/leniency_start/games/leniency_start_s0005.json
+  s_845c600935d53a::t_4ec2676759ef3b 1-2711
+results/sting/main_llama70b/leniency_start/games/leniency_start_s0006.json
+  s_845c600935d53a::t_620d675436c97f 1-2832
+results/sting/main_llama70b/leniency_start/games/leniency_start_s0007.json
+  s_845c600935d53a::t_f8f46b7487e6e6 1-2127
+results/sting/main_llama70b/leniency_start/games/leniency_start_s0008.json
+  s_845c600935d53a::t_bda14921301a43 1-1597
+results/sting/main_llama70b/leniency_start/games/leniency_start_s0009.json
+  s_845c600935d53a::t_27a859835fbcd1 1-2277
+results/sting/main_llama70b/leniency_start/games/leniency_start_s0010.json
+  s_845c600935d53a::t_82c34052fcb2c6 1-2466
+results/sting/main_llama70b/no_report/calls.jsonl
+  s_845c600935d53a::t_a0cffb741d99e4 1-1455
+results/sting/main_llama70b/no_report/games/no_report_s0001.json
+  s_845c600935d53a::t_866db5a5df2cfa 1-2230
+results/sting/main_llama70b/no_report/games/no_report_s0002.json
+  s_845c600935d53a::t_615c540338e5b7 1-3591
+results/sting/main_llama70b/no_report/games/no_report_s0003.json
+  s_845c600935d53a::t_34112a06864c30 1-2016
+results/sting/main_llama70b/no_report/games/no_report_s0004.json
+  s_845c600935d53a::t_f13ee2c4af2c81 1-2058
+results/sting/main_llama70b/no_report/games/no_report_s0005.json
+  s_845c600935d53a::t_d43a2dd95e7983 1-1934
+results/sting/main_llama70b/no_report/games/no_report_s0006.json
+  s_845c600935d53a::t_3519109081c97e 1-2337
+results/sting/main_llama70b/no_report/games/no_report_s0007.json
+  s_845c600935d53a::t_3869ed0b31c0fa 1-2360
+results/sting/main_llama70b/no_report/games/no_report_s0008.json
+  s_845c600935d53a::t_e5693015eaff79 1-1549
+results/sting/main_llama70b/no_report/games/no_report_s0009.json
+  s_845c600935d53a::t_91d60585c0e6f0 1-2073
+results/sting/main_llama70b/no_report/games/no_report_s0010.json
+  s_845c600935d53a::t_aaaf987a169b47 1-2775
+results/sting/main_llama70b/results.csv
+  s_845c600935d53a::t_bc35f10770a914 1-121
+results/sting/main_llama70b/reward_mid/calls.jsonl
+  s_845c600935d53a::t_8ac128c0fff92d 1-1483
+results/sting/main_llama70b/reward_mid/games/reward_mid_s0001.json
+  s_845c600935d53a::t_7c73cd58224f16 1-1971
+results/sting/main_llama70b/reward_mid/games/reward_mid_s0002.json
+  s_845c600935d53a::t_f381a3266e2e2b 1-3939
+results/sting/main_llama70b/reward_mid/games/reward_mid_s0003.json
+  s_845c600935d53a::t_7bbdab05b802d0 1-2212
+results/sting/main_llama70b/reward_mid/games/reward_mid_s0004.json
+  s_845c600935d53a::t_0b6dfa68ef5923 1-1833
+results/sting/main_llama70b/reward_mid/games/reward_mid_s0005.json
+  s_845c600935d53a::t_2b3dc9c7c2bc07 1-2167
+results/sting/main_llama70b/reward_mid/games/reward_mid_s0006.json
+  s_845c600935d53a::t_dd79d3ce9bea77 1-2943
+results/sting/main_llama70b/reward_mid/games/reward_mid_s0007.json
+  s_845c600935d53a::t_e6e9a08c512cfa 1-1533
+results/sting/main_llama70b/reward_mid/games/reward_mid_s0008.json
+  s_845c600935d53a::t_e577ed725c0841 1-1356
+results/sting/main_llama70b/reward_mid/games/reward_mid_s0009.json
+  s_845c600935d53a::t_7f8e3bea4cbe00 1-2440
+results/sting/main_llama70b/reward_mid/games/reward_mid_s0010.json
+  s_845c600935d53a::t_135ea40008ba98 1-2534
+results/sting/main_llama70b/summary.csv
+  s_845c600935d53a::t_009adb1dc328a4 1-50
+results/sting/reference/pilot/calls.jsonl
+  s_845c600935d53a::t_31ad41e6da0cca 1-270
+results/sting/reference/pilot/pilot_offers.csv
+  s_845c600935d53a::t_fe89cf2c6cb181 1-271
+results/sting/reference/pilot_v2/calls.jsonl
+  s_845c600935d53a::t_b9ab8e0a025cff 1-180
+results/sting/reference/pilot_v2/pilot_offers.csv
+  s_845c600935d53a::t_976c25664256f8 1-181
+results/sting/reference/positive_control/20261024_233218.json
+  s_845c600935d53a::t_6bdefca8d183db 1-868
+results/sting/reference/positive_control/20261024_233218_secret_channel.json
+  s_845c600935d53a::t_6e9be51106dddb 1-12
+results/sting/reference/smoke_v2_70b/leniency_mid/calls.jsonl
+  s_845c600935d53a::t_2416fdcdd7d9f6 1-112
+results/sting/reference/smoke_v2_70b/leniency_mid/games/leniency_mid_s0001.json
+  s_845c600935d53a::t_833b8dccf9a028 1-1985
+results/sting/reference/smoke_v2_70b/leniency_start/calls.jsonl
+  s_845c600935d53a::t_df86d33950e9be 1-150
+results/sting/reference/smoke_v2_70b/leniency_start/games/leniency_start_s0001.json
+  s_845c600935d53a::t_082599d1e46056 1-2381
+results/sting/reference/smoke_v2_70b/no_report/calls.jsonl
+  s_845c600935d53a::t_51c72c295f4a7e 1-133
+results/sting/reference/smoke_v2_70b/no_report/games/no_report_s0001.json
+  s_845c600935d53a::t_5feca6bd0dfe49 1-2030
+results/sting/reference/smoke_v2_70b/reward_mid/calls.jsonl
+  s_845c600935d53a::t_b3aafa8cb6079b 1-149
+results/sting/reference/smoke_v2_70b/reward_mid/games/reward_mid_s0001.json
+  s_845c600935d53a::t_b05f917fd012f5 1-2569
+results/sting/reference/smoke_v2_8b/leniency_mid/calls.jsonl
+  s_845c600935d53a::t_5fc90e6ab08ef0 1-102
+results/sting/reference/smoke_v2_8b/leniency_mid/games/leniency_mid_s0001.json
+  s_845c600935d53a::t_b52cb724e7222b 1-1841
+results/sting/reference/smoke_v2_8b/leniency_start/calls.jsonl
+  s_845c600935d53a::t_defe8c631651f7 1-66
+results/sting/reference/smoke_v2_8b/leniency_start/games/leniency_start_s0001.json
+  s_845c600935d53a::t_942be068c57f66 1-1435
+results/sting/reference/smoke_v2_8b/no_report/calls.jsonl
+  s_845c600935d53a::t_229cb20aed656c 1-164
+results/sting/reference/smoke_v2_8b/no_report/games/no_report_s0001.json
+  s_845c600935d53a::t_fccc65beabbe04 1-2889
+results/sting/reference/smoke_v2_8b/reward_mid/calls.jsonl
+  s_845c600935d53a::t_186064f6718ecf 1-108
+results/sting/reference/smoke_v2_8b/reward_mid/games/reward_mid_s0001.json
+  s_845c600935d53a::t_950ac262ac39de 1-1871
+scripts/pilot_offer_acceptance.py
+  s_845c600935d53a::t_bf6095374dc4b3 1-124
+scripts/positive_control_llama.py
+  s_845c600935d53a::t_233ed84cebc69d 1-47
+scripts/run_sting.py
+  s_845c600935d53a::t_d5beafc5c416bb 1-58
+src/agents/player.py
+  s_845c600935d53a::t_23efc671dc60b5 1-688
+src/game/game.py
+  s_845c600935d53a::t_fcd1d7b1fa2e3d 1-993
+src/game/game_record.py
+  s_845c600935d53a::t_17c72ffc46bea7 1-491
+src/llm/llm_client.py
+  s_845c600935d53a::t_980242c1bb6f2f 1-33
+src/llm/provider_client.py
+  s_845c600935d53a::t_d8b10c1e0e7cd8 1-92
+src/sting/call_log.py
+  s_845c600935d53a::t_d64d06255ef707 1-35
+src/sting/config.py
+  s_845c600935d53a::t_54917ccde96ac1 1-65
+src/sting/fake_client.py
+  s_845c600935d53a::t_9567886435cf95 1-43
+src/sting/game_sting.py
+  s_845c600935d53a::t_0517bf2f09dc65 1-495
+src/sting/pact.py
+  s_845c600935d53a::t_d1db056daf0ac6 1-69
+src/sting/prompts.py
+  s_845c600935d53a::t_252dfc8a02a1d3 1-74
+tests/conftest.py
+  s_845c600935d53a::t_300a4c2553fa0e 1-11
+tests/schema.py
+  s_845c600935d53a::t_68a408b6b6e844 1-69
+tests/test_sting_client.py
+  s_845c600935d53a::t_4043be271f6a0b 1-54
+tests/test_sting_metrics.py
+  s_845c600935d53a::t_644e8b3475c86c 1-145
+tests/test_sting_pact.py
+  s_845c600935d53a::t_a74f804283ade6 1-164
+tests/test_sting_player.py
+  s_845c600935d53a::t_0237cb55a46ec3 1-50
+tests/test_sting_prompts.py
+  s_845c600935d53a::t_8e6f8cb805db6c 1-87
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "544d6b2b5f20dd4497a92d344f82cf8af5d25bb2",
+  "prompts": {},
+  "sessions": {
+    "s_845c600935d53a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1dc4ff69-c875-4936-9e72-4db50eb06c3b",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Bao Thu Pham <thubpham@sas.upenn.edu>"
+    }
+  }
+}
